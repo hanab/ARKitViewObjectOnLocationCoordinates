@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		5544857A204310020087D2A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55448579204310020087D2A7 /* AppDelegate.swift */; };
-		5544857C204310020087D2A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544857B204310020087D2A7 /* ViewController.swift */; };
+		5544857C204310020087D2A7 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544857B204310020087D2A7 /* MapKitViewController.swift */; };
 		5544857F204310020087D2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5544857D204310020087D2A7 /* Main.storyboard */; };
 		55448581204310020087D2A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55448580204310020087D2A7 /* Assets.xcassets */; };
 		55448584204310020087D2A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55448582204310020087D2A7 /* LaunchScreen.storyboard */; };
+		55448592204311E20087D2A7 /* ArKitSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55448591204311E20087D2A7 /* ArKitSceneViewController.swift */; };
+		5544859420433ACA0087D2A7 /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544859320433ACA0087D2A7 /* LocationNode.swift */; };
+		55448596204343E00087D2A7 /* LocationTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55448595204343E00087D2A7 /* LocationTranslation.swift */; };
+		5544859920434B100087D2A7 /* MatrixHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544859820434B100087D2A7 /* MatrixHelper.swift */; };
+		5544859C20434B9A0087D2A7 /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544859B20434B9A0087D2A7 /* CLLocation+Extension.swift */; };
+		5544859E20434C0A0087D2A7 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544859D20434C0A0087D2A7 /* Double+Extension.swift */; };
+		554485A020434C5A0087D2A7 /* CLLocation2d+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544859F20434C5A0087D2A7 /* CLLocation2d+Extension.swift */; };
+		554485A220434C900087D2A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554485A120434C900087D2A7 /* Constants.swift */; };
+		554485A420434CE10087D2A7 /* SCNVector3+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554485A320434CE10087D2A7 /* SCNVector3+Extension.swift */; };
+		554485A620437A770087D2A7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 554485A520437A770087D2A7 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55448576204310020087D2A7 /* ARKitViewObjectOnLocationCoordinates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitViewObjectOnLocationCoordinates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55448579204310020087D2A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5544857B204310020087D2A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5544857B204310020087D2A7 /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
 		5544857E204310020087D2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55448580204310020087D2A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55448583204310020087D2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55448585204310020087D2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55448591204311E20087D2A7 /* ArKitSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArKitSceneViewController.swift; sourceTree = "<group>"; };
+		5544859320433ACA0087D2A7 /* LocationNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationNode.swift; sourceTree = "<group>"; };
+		55448595204343E00087D2A7 /* LocationTranslation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTranslation.swift; sourceTree = "<group>"; };
+		5544859820434B100087D2A7 /* MatrixHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixHelper.swift; sourceTree = "<group>"; };
+		5544859B20434B9A0087D2A7 /* CLLocation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		5544859D20434C0A0087D2A7 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		5544859F20434C5A0087D2A7 /* CLLocation2d+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation2d+Extension.swift"; sourceTree = "<group>"; };
+		554485A120434C900087D2A7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		554485A320434CE10087D2A7 /* SCNVector3+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extension.swift"; sourceTree = "<group>"; };
+		554485A520437A770087D2A7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,88 @@
 		55448578204310020087D2A7 /* ARKitViewObjectOnLocationCoordinates */ = {
 			isa = PBXGroup;
 			children = (
-				55448579204310020087D2A7 /* AppDelegate.swift */,
-				5544857B204310020087D2A7 /* ViewController.swift */,
+				5544859A20434B650087D2A7 /* Extensions */,
+				5544859720434AE30087D2A7 /* Services */,
+				554485902043109B0087D2A7 /* Application Context */,
+				5544858F204310750087D2A7 /* SupportFiles */,
+				5544858E2043104D0087D2A7 /* Resources */,
+				5544858D204310410087D2A7 /* Controllers */,
+				5544858C2043103A0087D2A7 /* Models */,
+				5544858B204310240087D2A7 /* Views */,
 				5544857D204310020087D2A7 /* Main.storyboard */,
-				55448580204310020087D2A7 /* Assets.xcassets */,
 				55448582204310020087D2A7 /* LaunchScreen.storyboard */,
-				55448585204310020087D2A7 /* Info.plist */,
 			);
 			path = ARKitViewObjectOnLocationCoordinates;
+			sourceTree = "<group>";
+		};
+		5544858B204310240087D2A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5544858C2043103A0087D2A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5544859320433ACA0087D2A7 /* LocationNode.swift */,
+				55448595204343E00087D2A7 /* LocationTranslation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5544858D204310410087D2A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5544857B204310020087D2A7 /* MapKitViewController.swift */,
+				55448591204311E20087D2A7 /* ArKitSceneViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5544858E2043104D0087D2A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55448580204310020087D2A7 /* Assets.xcassets */,
+				554485A520437A770087D2A7 /* art.scnassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5544858F204310750087D2A7 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				55448585204310020087D2A7 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		554485902043109B0087D2A7 /* Application Context */ = {
+			isa = PBXGroup;
+			children = (
+				55448579204310020087D2A7 /* AppDelegate.swift */,
+			);
+			path = "Application Context";
+			sourceTree = "<group>";
+		};
+		5544859720434AE30087D2A7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5544859820434B100087D2A7 /* MatrixHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5544859A20434B650087D2A7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5544859B20434B9A0087D2A7 /* CLLocation+Extension.swift */,
+				5544859D20434C0A0087D2A7 /* Double+Extension.swift */,
+				5544859F20434C5A0087D2A7 /* CLLocation2d+Extension.swift */,
+				554485A120434C900087D2A7 /* Constants.swift */,
+				554485A320434CE10087D2A7 /* SCNVector3+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55448584204310020087D2A7 /* LaunchScreen.storyboard in Resources */,
+				554485A620437A770087D2A7 /* art.scnassets in Resources */,
 				55448581204310020087D2A7 /* Assets.xcassets in Resources */,
 				5544857F204310020087D2A7 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +231,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5544857C204310020087D2A7 /* ViewController.swift in Sources */,
+				554485A420434CE10087D2A7 /* SCNVector3+Extension.swift in Sources */,
+				5544859920434B100087D2A7 /* MatrixHelper.swift in Sources */,
+				5544859420433ACA0087D2A7 /* LocationNode.swift in Sources */,
+				554485A020434C5A0087D2A7 /* CLLocation2d+Extension.swift in Sources */,
+				5544857C204310020087D2A7 /* MapKitViewController.swift in Sources */,
+				55448596204343E00087D2A7 /* LocationTranslation.swift in Sources */,
+				554485A220434C900087D2A7 /* Constants.swift in Sources */,
+				5544859E20434C0A0087D2A7 /* Double+Extension.swift in Sources */,
+				5544859C20434B9A0087D2A7 /* CLLocation+Extension.swift in Sources */,
 				5544857A204310020087D2A7 /* AppDelegate.swift in Sources */,
+				55448592204311E20087D2A7 /* ArKitSceneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +379,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ARKitViewObjectOnLocationCoordinates/Info.plist;
+				DEVELOPMENT_TEAM = B8E33HQRMF;
+				INFOPLIST_FILE = "$(SRCROOT)/ARKitViewObjectOnLocationCoordinates/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hana.demas.ARKitViewObjectOnLocationCoordinates;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hana.demas.ARKitViewObject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +395,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ARKitViewObjectOnLocationCoordinates/Info.plist;
+				DEVELOPMENT_TEAM = B8E33HQRMF;
+				INFOPLIST_FILE = "$(SRCROOT)/ARKitViewObjectOnLocationCoordinates/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hana.demas.ARKitViewObjectOnLocationCoordinates;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hana.demas.ARKitViewObject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
